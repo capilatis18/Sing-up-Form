@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9FAFB;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    height: 100vh;
+    background:url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+}
+aside div{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 30vw;
+}
+aside div img {
+    background-size: cover;
+    height: 100px;
+}
+h1{
+    font-family: Norse,Bold;
+    color: white;
+    font-size: 5em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    justify-content: flex-start;
+    padding-top: 100px;
+}
+#texto{
+    padding-left: 30px;
+}
+legend{
+    padding-left: 30px;
+    background-color: white;
+    padding-top: 10px;
+    box-shadow: 1px 0px 2px #DCDDDD;
+
+}
+#divForm form #details{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 300px 0px 0px;
+    background-color: white;
+    box-shadow: 0px 1px 2px #DCDDDD;
+}
+#divForm form #details .input-box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+input{
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    height: 20px;
+}
+input:focus{
+    border-color: blue;
+    outline: none;
+    box-shadow: 3px 3px 2px #DCDDDD;
+}
+.error{
+    border-color: red;
+    box-shadow: 0px 1px 2px #DCDDDD;
+}
+#condicion{
+    font-size: 12px;
+    color: red;
+}
+#fButton{
+    padding-top: 20px;
+    padding-left: 30px;
+    border: none;
+}
+button{
+    background-color: #596d48;
+    width: 180px;
+    height: 45px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+}
+#foot{
+    padding-left: 30px;
+}
+#foot strong{
+    color: #596d48;
+}

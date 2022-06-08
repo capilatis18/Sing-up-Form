@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <aside>
+        <div>
+            <img src="odin-lined.png" alt="Odin logo">
+            <h1>odin</h1>
+        </div>
+    </aside>
+    <main class="main">
+        <div id="texto">
+            <p>This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams. <br> Sing up now to get started.</p>
+            <p>You know you want to.</p>
+        </div>    
+        <div id="divForm">
+            <form action="#" method="post">
+                <legend>Let's do this!</legend>
+                <div id="details">
+                    <div class="input-box">
+                        <label for="name">Name</label>
+                        <input name="name" id="name" type="text">
+                    </div>
+                    <div class="input-box">
+                        <label for="last name">Last Name</label>
+                        <input name="last name" id="last name" type="text">
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input name='email' id="email" type="email">
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Phone</label>
+                        <input name='phone' id="number" type="text">
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input name='password' id="password" type="password" class="error" onchange="comprobacion()">
+                        <p id="condicion">* Password do not match!</p>
+                    </div>
+                    <div class="input-box">
+                        <label for="confirmP">Confirm Password</label>
+                        <input name='password' id="confirmP" type="password" class="error" onchange="comprobacion()">
+                    </div>
+                </div>
+                <fieldset id="fButton">
+                    <button type="submit">Create Account</button>
+                </fieldset>
+                <div id="foot">
+                    <p>Already have an account? <strong>Log in</strong></p>
+                </div>    
+            </form>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
